@@ -1,0 +1,18 @@
+.bounds {
+    height: 50px;
+    margin: 0;
+  }
+  
+  .sec1 {
+    background: #004b8d;
+    color:white;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  a:-webkit-any-link {
+      color: white !important;
+  }
+  .content {
+    min-width: 300px;
+    /*height: 400px;*/
+  }

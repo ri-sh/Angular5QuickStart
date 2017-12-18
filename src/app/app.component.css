@@ -1,0 +1,15 @@
+.bounds {
+    height :40px;
+    margin: 0;
+  }
+  
+  .sec1 {
+    background: #004b8d;
+    color:white;
+    text-transform: uppercase
+  }
+  
+  .content {
+    min-width: 300px;
+    /*height: 400px;*/
+  }

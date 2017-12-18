@@ -1,0 +1,11 @@
+<div class="bounds">
+  <div class="content" 
+        fxLayout="row"
+        fxLayoutGap="0.25%"
+        fxLayout.xs="column" 
+        fxFlexFill >
+      <div fxFlex fxLayoutAlign="center center" class="sec1" fxFlex.xs="" *ngFor="let tab of menuBarData">
+          <a [routerLink]="tab.link">{{ tab.name }}</a>
+      </div>
+  </div>
+</div>
